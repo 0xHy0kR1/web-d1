@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: 'archBold';
+  src: url(../static/fonts/AcherusFeral-Bold.otf);
+}
+@font-face {
+  font-family: 'archLight';
+  src: url(../static/fonts/AcherusFeral-Light.otf);
+}
