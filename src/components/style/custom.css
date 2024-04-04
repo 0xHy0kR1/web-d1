@@ -1,0 +1,16 @@
+.carousel .control-dots .dot {
+    background-color: #b0aeae; /* Gray color for unselected dots */
+    width: 10px;
+    height: 10px;
+    border-radius: 50%; /* Make the dots circular */
+    margin: 0 5px; /* Adjust the spacing between the dots */
+    box-shadow: none;
+  }
+  
+  .carousel .control-dots .dot.selected {
+    background-color: white; /* White color for selected dot */
+    border: 3px solid #b0aeae; /* Gray color for selected dot border */
+    box-shadow: none;
+    width: 13px;
+    height: 13px;
+  }
