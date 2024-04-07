@@ -40,7 +40,7 @@ function Home() {
   return (
     <>
     <div>
-      <div className="flex flex-col px-36">
+      <div className="flex flex-col md:px-36">
         {/* Header starts here */}
         <div className="Header-block mx-12 mt-12 mb-6">
           <header>
@@ -60,11 +60,11 @@ function Home() {
         </div>
         {/* Navbar end here */}
 
-        
+        {/* Top paragraph */}
         {/* section-1 starts here */}
-        <div className="section-1 border-blue-600 w-full mx-12 pt-6 mb-12">
-          <div className="des flex">
-            <p className="flex w-6/12 leading-relaxed">
+        <div className="section-1 inline w-[55%] mt-10 mx-12 mb-12">
+          <div className="des flex ">
+            <p className="flex w-full leading-relaxed">
               Wix is leading the way with a cloud-based development platform for
               users worldwide. Wix was founded on the belief that the Internet
               should be accessible to everyone to develop, create and contribute.
@@ -76,6 +76,7 @@ function Home() {
         </div>
         {/* section-2 end here */}
 
+        {/* Carousel section */}
         {/* section-2 starts here */}
         <div className="section-2">
           <div className="w-full">
@@ -133,10 +134,11 @@ function Home() {
         </div>
         {/* section-2 ends here */}
 
+        {/* Press Release section */}
         {/* section-3 starts here */}
         <div className="section-3 mx-12 mt-12 mb-6 flex flex-col justify-between gap-y-24">
           <div className="flex items-center gap-3">
-            <h2 className="text-3xl font-bold font-ArcherusBold">
+            <h2 className="text-2xl md:text-3xl font-bold font-ArcherusBold">
               Press Releases
             </h2>
             <span>
@@ -151,7 +153,7 @@ function Home() {
           <div className="flex flex-col justify-between gap-12">
             <div className="flex flex-col justify-between gap-4 border-b-2 border-black pb-20">
               <p className="font-bold font-serif text-sm dates">June 14, 2022</p>
-              <div className="flex justify-between gap-60">
+              <div className="flex justify-between sm:gap-30 md:gap-60">
                 <p>Wix Wins Google Cloud Expansion Partner of the Year Award</p>
                 <span>
                   <a
@@ -165,7 +167,7 @@ function Home() {
             </div>
             <div className="flex flex-col justify-between gap-4 border-b-2 border-black pb-20">
               <p className="font-bold font-serif text-sm dates">June 7, 2022</p>
-              <div className="flex justify-between gap-60">
+              <div className="flex justify-between sm:gap-30 md:gap-60">
                 <p>
                   Wix Relaunches its Solution for Hotels - Now Powered by
                   HotelRunner, Providing a Comp...
@@ -182,7 +184,7 @@ function Home() {
             </div>
             <div className="flex flex-col justify-between gap-4 border-b-2 border-black pb-20">
               <p className="font-bold font-serif text-sm dates">April 27, 2022</p>
-              <div className="flex justify-between gap-60">
+              <div className="flex justify-between sm:gap-30 md:gap-60">
                 <p>
                   Wix and LegalZoom Join Forces to Offer Personalized Solutions
                   for Small Businesses to...
@@ -199,7 +201,7 @@ function Home() {
             </div>
             <div className="flex flex-col justify-between gap-4 border-b-2 border-black pb-20">
               <p className="font-bold font-serif text-sm dates">April 18, 2022</p>
-              <div className="flex justify-between gap-60">
+              <div className="flex justify-between sm:gap-30 md:gap-60">
                 <p>Wix Events Launches Seating Map Builder</p>
                 <span>
                   <a
@@ -218,7 +220,7 @@ function Home() {
         {/* section-4 starts here */}
         <div className="section-3 mx-12 mt-28 mb-6 flex flex-col justify-between gap-y-24">
           <div className="flex items-center gap-3">
-            <h2 className="text-3xl font-bold font-ArcherusBold">In The News</h2>
+            <h2 className="text-2xl md:text-3xl font-bold font-ArcherusBold">In The News</h2>
             <span>
               <a
                 href="#"
@@ -233,7 +235,7 @@ function Home() {
               <p className="font-medium text-sm dates font-ArcherusLight">
                 April 28, 2022
               </p>
-              <div className="flex justify-between gap-60">
+              <div className="flex justify-between sm:gap-30 md:gap-60">
                 <div className="flex flex-col justify-between gap-2">
                   <p className="font-ArcherusBold">Bloomberg</p>
                   <p className="font-ArcherusLight font-semibold">
@@ -254,7 +256,7 @@ function Home() {
               <p className="font-medium text-sm dates font-ArcherusLight">
                 April 27, 2022
               </p>
-              <div className="flex justify-between gap-60">
+              <div className="flex justify-between sm:gap-30 md:gap-60">
                 <div className="flex flex-col justify-between gap-2">
                   <p className="font-ArcherusBold">Benzinga</p>
                   <p className="font-ArcherusLight font-semibold">
@@ -275,7 +277,7 @@ function Home() {
               <p className="font-medium text-sm dates font-ArcherusLight">
                 April 26, 2022
               </p>
-              <div className="flex justify-between gap-60">
+              <div className="flex justify-between sm:gap-30 md:gap-60">
                 <div className="flex flex-col justify-between gap-2">
                   <p className="font-ArcherusBold">HostingAdvice.com</p>
                   <p className="font-ArcherusLight font-semibold">
@@ -297,7 +299,7 @@ function Home() {
               <p className="font-medium text-sm dates font-ArcherusLight">
                 April 18, 2022
               </p>
-              <div className="flex justify-between gap-60">
+              <div className="flex justify-between sm:gap-30 md:gap-60">
                 <div className="flex flex-col justify-between gap-2">
                   <p className="font-ArcherusBold">DevOps.com</p>
                   <p className="font-ArcherusLight font-semibold">
@@ -366,7 +368,7 @@ function Home() {
         {/* section-7 starts here */}
         <div className="section-7 mx-12 mt-28 mb-6 flex flex-col justify-between gap-y-10">
           <div className="flex items-center gap-3">
-            <h2 className="text-3xl font-bold font-ArcherusBold">Social</h2>
+            <h2 className="text-2xl md:text-3xl font-bold font-ArcherusBold">Social</h2>
           </div>
           <div className="social-img flex flex-wrap">
             <div className="wix py-14 px-16 social-border">
@@ -392,7 +394,7 @@ function Home() {
         <div className="section-7 mx-12 mt-28 mb-6 flex flex-col justify-between gap-y-24">
           <div className="flex flex-wrap gap-28 w-11/12">
             <div className="flex gap-3">
-              <h2 className="text-3xl font-bold font-ArcherusBold">Contact Us</h2>
+              <h2 className="text-2xl md:text-3xl font-bold font-ArcherusBold">Contact Us</h2>
             </div>
             <div className="flex flex-col justify-between gap-14 w-7/12">
               <div>

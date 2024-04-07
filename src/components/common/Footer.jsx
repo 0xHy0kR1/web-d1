@@ -11,9 +11,9 @@ import { BsTiktok } from "react-icons/bs";
 
 function Footer() {
   return (
-    <div className="border-t-2 border-gray-400 w-full relative py-12">
+    <div className="border-t-2 border-gray-400 w-full relative md:py-12">
       {/* Our footer starts here */}
-      <footer className="w-full px-40 footer-text pt-8 flex flex-col md:flex-row flex-wrap gap-3 justify-between">
+      <footer className="w-full sm:px-2 md:px-40 footer-text pt-8 flex flex-col flex-wrap md:flex-row flex-wrap md:gap-3 justify-between">
         <div className="flex flex-col gap-5">
           <h2 className=" text-md mt-4 footer-text-h">PRODUCT</h2>
           <div className="footer-text-p text-xs font-medium flex flex-col gap-3">
