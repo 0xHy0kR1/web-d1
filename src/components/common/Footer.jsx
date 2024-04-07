@@ -184,7 +184,6 @@ function Footer() {
             </a>
           </div>
         </div>
-        {/* Repeat the above div as needed */}
         <div className="flex flex-col w-1/5">
           <div className="wix">
             <FaWix className="w-[60px] h-10" />

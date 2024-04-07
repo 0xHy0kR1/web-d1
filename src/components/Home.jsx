@@ -217,6 +217,7 @@ function Home() {
         </div>
         {/* section-3 ends here */}
 
+        {/* News section */}
         {/* section-4 starts here */}
         <div className="section-3 mx-12 mt-28 mb-6 flex flex-col justify-between gap-y-24">
           <div className="flex items-center gap-3">
@@ -320,12 +321,13 @@ function Home() {
         </div>
         {/* section-4 ends here */}
 
+        {/* Card section */}
         {/* section-5 starts here */}
         <div className="section-5 flex flex-wrap justify-center gap-8">
           <div className="card-1 flex flex-col gap-8">
-            <img className="h-72 w-[19vw]" src={card1} alt="card1" />
+            <img className="h-[300px] w-[300px]" src={card1} alt="card1" />
             <div className="text flex flex-col gap-2">
-              <p className="title font-ArcherusBold font-extrabold text-lg">
+              <p className="title font-ArcherusBold font-extrabold md:text-lg">
                 Brand Assets
               </p>
               <p className="desc w-72 font-ArcherusLight font-semibold text-sm leading-6">
@@ -336,7 +338,7 @@ function Home() {
             </div>
           </div>
           <div className="card-2 flex flex-col gap-8">
-            <img className="h-72 w-[19vw]" src={card2} alt="card2" />
+            <img className="h-[300px] w-[300px]" src={card2} alt="card2" />
             <div className="text">
               <p className="title font-ArcherusBold font-extrabold text-lg">
                 About Us
@@ -349,7 +351,7 @@ function Home() {
             </div>
           </div>
           <div className="card-3 flex flex-col gap-8">
-            <img className="h-72 w-[19vw]" src={card3} alt="card3" />
+            <img className="h-[300px] w-[300px]" src={card3} alt="card3" />
             <div className="text">
               <p className="title font-ArcherusBold font-extrabold text-lg">
                 Investor Relations
@@ -390,9 +392,10 @@ function Home() {
         </div>
         {/* section-7 ends here */}
 
+        {/* contact us */}
         {/* section-8 starts here */}
         <div className="section-7 mx-12 mt-28 mb-6 flex flex-col justify-between gap-y-24">
-          <div className="flex flex-wrap gap-28 w-11/12">
+          <div className="flex flex-wrap sm:gap-24 md:gap-28 w-11/12">
             <div className="flex gap-3">
               <h2 className="text-2xl md:text-3xl font-bold font-ArcherusBold">Contact Us</h2>
             </div>
